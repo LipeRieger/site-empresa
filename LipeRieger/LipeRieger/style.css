@@ -1,0 +1,151 @@
+*{
+    scroll-behavior: smooth;
+    text-decoration: none;
+    margin: 0px;
+    padding-left: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header div{
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(70, 70, 70);
+    position: fixed;
+}
+
+header div a{
+    color: white;
+    font-size: 23px;
+    margin-top: 12px;
+    transition: 0.3s;
+}
+
+header div a button{
+    margin-top: -6px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(161, 190, 179);
+    border-radius: 80px;
+    padding: 5px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+header div a:hover{
+    transform: scale(0.97);
+}
+
+header h1{
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 200px;
+    color: white;
+    text-shadow: 4px 4px 10px black;
+    display: block;
+    background-image: url(https://rare-gallery.com/uploads/posts/5375867-toy-miniature-vw-bus-vw-wallpaper-car-wallpapers-car-backgrounds-volkswagen-asphalt-vanlife-van-sunlight-shadow-mini-small-desert-travel-freedom-volkswagon-model-png-images.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+    width: 100%;
+    background-position-y: -150px;
+    text-align: center;
+}
+
+main article{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+main article h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+main article h3{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 3px;
+}
+
+main article img{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+main article p{
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+    display: block;
+    float: left;
+    margin-top: 70px;
+    background-color: rgb(161, 190, 179);
+    width: 100%;
+    height: 430px;
+}
+
+footer div{
+    display: block;
+    float: left;
+    width: 24%;
+    margin-left: 3.5%;
+    height: 320px;
+    padding: 30px;
+}
+
+footer div h4{
+    font-size: 18.9px;
+    margin-bottom: 30px;
+}
+
+footer div img{
+    display: block;
+    width: 100%;
+    height: 160px;
+}
+
+footer div p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+footer div a button{
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+footer div a button:hover{
+    transform: scale(0.96);
+}
+
+.license{
+    margin-top: 30px;
+    padding: 0px;
+    width: 100%;
+    height: 55px;
+    margin-left: 0px;
+    background-color: rgb(70, 70, 70);
+}
+
+.license p{
+    margin-left: 34.4%;
+    width: 30.2%;
+    font-size: 15px;
+    color: white;
+}
